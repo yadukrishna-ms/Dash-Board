@@ -1,0 +1,111 @@
+.sidebar{
+    width: 300px;
+    background-color: #040440;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.sidebarWrapper{
+    color: #7c80a2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.sidebarWrapper .sideBarMain{
+    padding: 20px;
+}
+
+.sidebarWrapper .logo {
+    color:#ffffff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+.sidebarWrapper .logo svg{
+    width: 25px;
+}
+
+.sidebarWrapper .navList{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.sidebarWrapper .navList .navItem{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.sidebarWrapper .navList .navItem span{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sidebarWrapper .navList .navItem svg{
+    width: 20px;
+}
+
+.sidebarWrapper .navList .navItem.active{
+    background-color: #2d2d69;
+    color: #fff;
+}
+
+.sidebarWrapper .navList .navItem:hover{
+    background-color: #2d2d69;
+    color: #fff;
+}
+
+.sidebarWrapper .userProfile{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    cursor: pointer;
+    background-color: #2d2d69;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebarWrapper .userProfile .details{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sidebarWrapper .userProfile .details h4{
+    font-size: 14px;
+}
+
+.sidebarWrapper .userProfile .details p{
+    font-size: 12px;
+}
+
+.sidebarWrapper .userProfile img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}

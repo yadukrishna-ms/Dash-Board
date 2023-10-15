@@ -1,0 +1,328 @@
+.greeting{
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+.dashboardHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dashboradSearch{
+    background-color: #fff;
+    padding: 8px 15px 8px 30px;
+    color: #909090;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+}
+
+::placeholder {
+    font-family: 'Poppins', sans-serif;
+    color: #b0b2bb;
+    opacity: 1; 
+  }
+
+.dashboradSearchDiv{
+    position: relative;
+}
+.dashboradSearchDiv svg{
+    color: #909090;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 8px;
+    left: 5px;
+}
+
+.statistics{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.statistics .card{
+    background-color: #fff;
+    flex: 1; 
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+}
+
+.statistics .card .icon{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.statistics .card .icon svg{
+    width: 45px;
+    height: 45px;
+}
+
+.colorLightGreen{
+    background-color: #ebfff4;
+    color: #00a947;
+}
+
+.colorLightPurple{
+    background-color: #e7dafe;
+    color: #a200ff;
+}
+
+.colorLightBlue{
+    background-color: #ccf2ff;
+    color: #0052bc;
+}
+
+.colorLightRed{
+    background-color: #ffcced;
+    color: #d90015;
+}
+
+.heading{
+    font-size: 13px;
+    color: #909090;
+}
+
+.statistics .card .details .amount{
+    font-size: 27px;
+}
+
+.statistics .card .details .stats{
+    font-size: 12px;
+}
+
+.statistics .card .details .stats .percentage{
+    font-weight: 700;
+}
+
+.statistics .card .details .stats .percentage.loss{
+    color: #d21054;
+}
+
+.statistics .card .details .stats .percentage.profit{
+    color:#1bb35e;
+}
+
+.statistics .card .details .stats svg{
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: 2px;
+    stroke-width: 3;
+}
+
+.chartsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.chartsContainer .barChart{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    height: 400px; 
+    /* width: 60%; */
+    flex: 1;
+}
+
+.chartsContainer .barChart .top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown select{
+    color: #909090;
+    padding: 6px;
+    background-color: #f3f3f3;
+    border-color: #f3f3f3;
+    border-radius: 5px;
+}
+
+
+.chartsContainer .chartContainer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.chartsContainer .chartContainer .chart {
+    height: 330px; 
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.chartsContainer .chartContainer .chart .bar{
+    width: 50px;
+    display: block;
+    background-color: #f2efff;
+    border-radius: 15px;
+}
+
+.chartsContainer .chartContainer .chart .bar.active{
+    background-color: #5a32ea;
+}
+
+.chartsContainer .chartContainer .chart .month{
+    font-weight: 500;
+    font-size: 15px;
+    color: #575757;
+}
+
+.chartsContainer .pieChart{
+    background-color: #fff;
+    padding: 20px;
+    /* width: 30%; */
+    border-radius: 15px;
+    flex: 1;
+    
+}
+
+.table{
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px 0;
+    border-radius: 15px;
+    overflow-x: scroll;
+}
+
+.table .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    flex-wrap: wrap;
+}
+
+.tableFilters{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tableSearch{
+    background-color: #f3f3f3;
+    padding: 8px 0px 8px 30px;
+    color: #909090;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+}
+.tableSearchDiv{
+    position: relative;
+}
+.tableSearchDiv svg{
+    color: #909090;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 8px;
+    left: 5px;
+}
+.table table{
+    width: 100%;
+    margin-top: 30px;
+    padding: 0px 20px;
+}
+.table .tableHeader{
+    border-bottom: 1px solid #909090;
+    color: #909090;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.table .tableHeader tr{
+    width: 100%;
+    padding-bottom: 10px;
+
+}
+
+.table .tableBody{
+    margin-top: 10px;
+}
+
+.table .tableBody .details{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.table .tableBody .details .description {
+    color: #909090;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.table .tableBody .ProductImage {
+    width: 70px;
+    border-radius: 5px;
+}
+
+.table .tableBody tr td{
+    margin-bottom: 10px;
+}
+
+hr{
+    border: 1px solid #eaeaea;
+    width: 176%;
+}
+@media (max-width: 800px) {
+    .chartsContainer .pieChart, 
+    .chartsContainer .chartContainer{
+      flex: 100%;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .chartsContainer .barChart{
+        width:100%;
+        overflow-x: scroll;
+    }
+    .chartsContainer .chartContainer{
+        width: 600px;
+    }
+    .chartsContainer .pieChart{
+        width: 100%;
+    }
+    .close{
+        position: absolute;
+        left: 79%;
+        top: 4%;
+        background: #dadada;
+        display: flex !important;
+        padding: 7px;
+        color: #000;
+        border-radius: 6px;
+        z-index: 10;
+    }
+    .table table {
+        width: 100%;
+        margin-top: 30px;
+        padding: 0px 20px;
+        width: 650px;
+    }
+    .menuSvg.sidebarOpen{
+        display: none;
+    }
+}
