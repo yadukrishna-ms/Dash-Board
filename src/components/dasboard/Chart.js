@@ -1,5 +1,5 @@
 import ReactEcharts from "echarts-for-react";
-import echarts from "echarts";
+
 
 const Chart = () => {
   const getOption = () => {
