@@ -1,4 +1,4 @@
 const Greeting = () => {
-  return <h2 className="greeting">Hello Shahrukh 👋,</h2>;
+  return <h2 className="greeting">Hello Yadhu.. 👋,</h2>;
 };
 export default Greeting;
